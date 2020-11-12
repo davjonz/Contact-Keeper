@@ -1,0 +1,3 @@
+{
+  "mongoURI" :"mongodb+srv://davjonz:TheDoorlands45*!@cluster0.fiycf.mongodb.net/<dbname>?retryWrites=true&w=majority"
+}

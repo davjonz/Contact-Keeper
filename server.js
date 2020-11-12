@@ -1,4 +1,10 @@
+// Server-side programs use CommonJS not ECMAscript 2015 (6). CommonJS doesn't have an import method. It uses
+// require() to grab files as seen below
 const express = require('express');
+const connectDB = require('./config/db');
+
+// Connect Database
+connectDB();
 
 const app = express();
 
